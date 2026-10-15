@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1769aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0b4a7a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Fondo redondeado estilo iOS -->
+  <rect width="180" height="180" rx="40" fill="url(#grad)" />
+
+  <!-- Balón de Balonmano Estilizado -->
+  <circle cx="90" cy="90" r="50" fill="white" />
+
+  <!-- Líneas del balón (costuras típicas de balonmano) -->
+  <path d="M55 60 Q90 90 125 60" stroke="#1769aa" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M55 120 Q90 90 125 120" stroke="#1769aa" stroke-width="6" fill="none" stroke-linecap="round" />
+  <path d="M60 90 L120 90" stroke="#1769aa" stroke-width="6" fill="none" stroke-linecap="round" />
+
+  <!-- Elementos de "Coaching" / Estrategia (flechas dinámicas) -->
+  <path d="M130 40 L150 40 L150 60" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M30 140 L50 140 L50 120" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
